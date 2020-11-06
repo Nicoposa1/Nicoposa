@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Hello from './components/Hello/index'
+import Navbar from './components/Navbar/index'
 
 function App() {
   return (
-    <Hello />
+    <Navbar />
   );
 }
 
