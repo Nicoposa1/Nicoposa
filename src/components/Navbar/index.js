@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from '../../images/nplogo.png'
+import Logo from '../../images/np.png'
 import './index.css'
 
 class NavbarHome extends React.Component {
