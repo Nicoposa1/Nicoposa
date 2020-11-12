@@ -7,7 +7,6 @@ import Navbar from './components/Navbar/index'
 import Home from './components/Home/index'
 import Description from './components/Description/index'
 import Skills from './components/Skills/index'
-import Card from './components/Skills/Card/index'
 
 const App = () => {
   return (
@@ -15,9 +14,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Description />
-      <Skills>
-        <Card title="JavaScript" />
-      </Skills>
+      <Skills />
     </BrowserRouter>
   );
 }

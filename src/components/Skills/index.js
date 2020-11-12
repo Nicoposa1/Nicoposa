@@ -7,12 +7,40 @@ class Skills extends React.Component{
   render(){
     return(
       <div className="container-fluid contenedor">
-        <div className="">
-          <h1>Skills</h1>
-        </div>
-        <div className="card">
-          <img src={reactjs} alt=""/>
-          <h3>React</h3>
+        <h1>Skills</h1>
+        <div className="row fila container-sm">
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
+          <div className="col-5 columna">
+            <img src={reactjs} className="rounded mx-auto d-block" alt=""/>
+            <h3 className="text-center">React JS</h3>
+          </div>
         </div>
       </div>
     )

@@ -1,9 +1,28 @@
 .contenedor{
   background: #2A19CF;
+  height: 100%;
 }
 img{
   border-radius: 0%;
+  height: 100px;
 }
 .card{
   background-color: transparent;
+}
+.fila{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0%;
+}
+h1{
+  margin-bottom: 35px;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+.columna{
+  margin-bottom: 20px;
 }

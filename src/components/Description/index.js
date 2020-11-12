@@ -3,6 +3,7 @@ import React from 'react'
 import './style.css'
 
 import profileImage from '../../images/profile.jpg'
+// import bottomImage from '../../images/bottom.png'
 
 class Description extends React.Component {
   render(){
@@ -16,6 +17,9 @@ class Description extends React.Component {
             <h1>Nicolás Posa</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, labore harum eos aperiam temporibus deserunt illo exercitationem? Eaque deleniti ex, velit quo magnam dolor sequi nulla esse in iusto accusamus.</p>
           </div>
+        </div>
+        <div className="bottom-img">
+          {/* <img src={bottomImage} alt=""/> */}
         </div>
       </div>
     )
