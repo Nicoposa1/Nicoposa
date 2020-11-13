@@ -5,8 +5,15 @@
   position: relative;
 }
 
-.child{
-
+.cont-des{
+  background-image: url('../../images/Path\ 8.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
 }
 
 .img, h1, p{
@@ -16,8 +23,12 @@
 img{
   border-radius: 100%;
 }
-p{
+.tex-des{
   text-align: center;
+  color: #0F0F0F;
+}
+.tittle-des{
+  color: #0F0F0F;
 }
 
 @media (max-width: 576px) { 

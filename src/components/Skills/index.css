@@ -1,6 +1,8 @@
 .contenedor{
   background: #2A19CF;
   height: 100%;
+  margin: 0%;
+  padding-bottom: 80px;
 }
 img{
   border-radius: 0%;

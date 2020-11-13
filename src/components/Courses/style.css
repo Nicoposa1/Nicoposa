@@ -1,0 +1,8 @@
+.card{
+  border: 1px solid black;
+  max-width: 400px;
+  max-height: 300px;
+}
+p{
+  color: #ddd;
+}

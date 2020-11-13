@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/index'
 import Home from './components/Home/index'
 import Description from './components/Description/index'
 import Skills from './components/Skills/index'
+import Courses from './components/Courses/index'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Home />
       <Description />
       <Skills />
+      <Courses />
     </BrowserRouter>
   );
 }
