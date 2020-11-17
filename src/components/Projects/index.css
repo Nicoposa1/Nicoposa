@@ -1,0 +1,25 @@
+.contendor-projects{
+  height: 100vh;
+  padding-top: 3rem;
+}
+
+.tittle-p{
+  color: black;
+}
+
+.con-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-bottom: 30px;
+  padding: 0%;
+}
+
+.project-content{
+  max-width: 150px;
+}
+
+.project-content img {
+  width: 100%;
+}

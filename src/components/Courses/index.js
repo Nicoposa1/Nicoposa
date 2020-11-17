@@ -10,13 +10,15 @@ import ecmascript from '../../images/diplomas/ecmascript.png'
 import redux from '../../images/diplomas/redux.png'
 import fundamentosjs from '../../images/diplomas/fundamentosjs.png'
 import fundamentosnode from '../../images/diplomas/fundamentosnode.png'
+import desarrollo from '../../images/diplomas/desarrollo.png'
+import posicionamiento from '../../images/diplomas/posicionamiento.png'
 
 import './style.css'
 
 class Courses extends React.Component{
   render(){
     return(
-      <div className="container-fluid contenedor-courses">
+      <div className="contenedor-courses">
         <h1 className="tittle-course">Aproved Courses</h1>
         <div className="row row-courses">
           <div className="col-6 col-md-4 p-0">
@@ -125,6 +127,28 @@ class Courses extends React.Component{
                 <div className="text">
                   <h4>Curso de ECMAScript 6+</h4>
                   <p className="p-courses">Platzi-2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-6 col-md-4 p-0">
+            <div className="card">
+              <div className="card-content">
+                <img src={desarrollo} alt=""/>
+                <div className="text">
+                  <h4>Curso de Desarrollo Web Online</h4>
+                  <p className="p-courses">Platzi-2018</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-6 col-md-4 p-0">
+            <div className="card">
+              <div className="card-content">
+                <img src={posicionamiento} alt=""/>
+                <div className="text">
+                  <h4>Curso de SEO: Posicionamiento en buscadores</h4>
+                  <p className="p-courses">Platzi-2018</p>
                 </div>
               </div>
             </div>
