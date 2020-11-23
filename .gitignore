@@ -4,7 +4,6 @@
 
 ### Images ###
 # JPEG
-*.jpg
 *.jpeg
 *.jpe
 *.jif
@@ -34,7 +33,6 @@
 *.webp
 
 # Portable Network Graphics
-*.png
 
 # Animated Portable Network Graphics
 *.apng
@@ -47,7 +45,6 @@
 *.tif
 
 # Scalable Vector Graphics
-*.svg
 *.svgz
 
 # Portable Document Format

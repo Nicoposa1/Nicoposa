@@ -8,18 +8,45 @@
 }
 
 .con-p{
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   border: none;
   margin-bottom: 30px;
-  padding: 0%;
+  padding: 0%; */
+  max-width: 1000px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+  padding: 0 1rem;
 }
 
 .project-content{
-  max-width: 150px;
+  background: #f4fbff;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 5%;
 }
 
 .project-content img {
   width: 100%;
+}
+.project-image{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cont-text{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
 }
