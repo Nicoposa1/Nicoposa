@@ -7,6 +7,8 @@ import project2 from '../../images/project/pb.png'
 import project3 from '../../images/project/opc.png'
 import project4 from '../../images/project/jsgame.png'
 import project5 from '../../images/project/responsive.png'
+import project6 from '../../images/project/petgram.png'
+
 class Projects extends React.Component{
  render(){
    return(
@@ -52,7 +54,7 @@ class Projects extends React.Component{
                     <img src={project3} className="project-image" alt=""/>
                   </figure>
                   <div className="con-text">
-                    <h4>Platzi Badges</h4>
+                    <h4>OP Construcciones</h4>
                     <p>HTML css JS</p>
                   </div>
                 </a>
@@ -82,8 +84,23 @@ class Projects extends React.Component{
                     <img src={project5} className="project-image" alt=""/>
                   </figure>
                   <div className="con-text">
-                    <h4>Proyecto responsive</h4>
+                    <h4>Personal web</h4>
                     <p>HTML CSS JS</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-6 col-md-4 p-0">
+            <div className="con-p">
+              <div className="project-content">
+                <a target="_blank" rel="noreferrer" href="https://github.com/Nicoposa1/react-project">
+                  <figure>
+                    <img src={project6} className="project-image" alt="Petgram"/>
+                  </figure>
+                  <div className="con-text">
+                    <h4>Petgram</h4>
+                    <p>React Styled-Component</p>
                   </div>
                 </a>
               </div>

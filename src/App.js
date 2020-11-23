@@ -9,6 +9,7 @@ import Description from './components/Description/index'
 import Skills from './components/Skills/index'
 import Courses from './components/Courses/index'
 import Projects from './components/Projects/index'
+import Contact from './components/Contact/index'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Skills />
       <Courses />
       <Projects />
+      <Contact />
     </BrowserRouter>
   );
 }

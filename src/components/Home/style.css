@@ -3,7 +3,6 @@
   background-color: black;
   padding: 0;
   margin: 0;
-  margin-bottom: 200px;
 }
 
 .box{
@@ -40,6 +39,7 @@
   margin: -15% 0 0 -25%;
   z-index: 40;
   color: white;
+  text-align: center;
 }
 
 
@@ -184,4 +184,28 @@
       border-radius: 100%;
   }
 
+}
+
+@media (min-width: 576px) {
+  .front h2 {
+    font-size: 17px;
+  }
+  .ProfileImage{
+    top: 35%;
+  }
+  .front{
+    top:50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .front h2 {
+    font-size: 2rem;
+  }
+  .ProfileImage{
+    top: 35%;
+  }
+  .front{
+    top:50%;
+  }
 }
