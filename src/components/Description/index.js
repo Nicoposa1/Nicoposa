@@ -8,7 +8,7 @@ import profileImage from '../../images/profile.jpg'
 class Description extends React.Component {
   render(){
     return(
-      <div className="cont-des">
+      <div className="cont-des" id="Me">
         <div className="child">
           <div className="img">
             <img src={profileImage} alt=""/>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter, Router, Route} from 'react-router-dom'
 
 
 import Navbar from './components/Navbar/index'
@@ -14,13 +14,13 @@ import Contact from './components/Contact/index'
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Home />
-      <Description />
-      <Skills />
-      <Courses />
-      <Projects />
-      <Contact />
+        <Navbar />
+        <Home />
+        <Description />
+        <Skills />
+        <Courses />
+        <Projects />
+        <Contact />
     </BrowserRouter>
   );
 }

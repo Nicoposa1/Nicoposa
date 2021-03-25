@@ -1,8 +1,15 @@
-.contact{
+.contact {
   background: black;
   margin-bottom: 0;
+  position: relative;
 }
-.anchor{
+.cont-contact {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.anchor {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +19,7 @@
   justify-content: center;
 }
 
-.social-media{
+.social-media {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,38 +29,35 @@
   margin: auto;
 }
 
-.social{
+.social {
   margin: 30px;
 }
-.social h3{
+.social h3 {
   margin: 0;
 }
-.contact-tittle{
-  padding-top: 6rem;
-}
-.anchor h3{
+.anchor h3 {
   margin: 0;
 }
 
 @media (max-width: 575.98px) {
-  .social-media{
+  .social-media {
     justify-content: space-around;
   }
 }
 
 @media (max-width: 767.98px) {
-  .cv img{
+  .cv img {
     max-width: 50px;
     max-height: 50px;
   }
-  .cv{
+  .cv {
     height: 10%;
   }
-  .social img{
+  .social img {
     max-width: 50px;
     max-height: 50px;
   }
-  .social{
+  .social {
     margin: 15px;
   }
   .social h3 {
@@ -62,17 +66,16 @@
 }
 
 @media (max-width: 1199.98px) {
- .cv{
-   margin-bottom: 30px;
- } 
-
+  .cv {
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 992px) {
-  .cv img{
+  .cv img {
     max-width: 70px;
     max-height: 70px;
   }
-  .cv{
+  .cv {
     margin-bottom: 30px;
-  } 
+  }
 }

@@ -7,7 +7,7 @@ import profile from '../../images/profile.jpg'
 class Home extends React.Component {
   render() {
     return ( 
-      <div className="container-fluid cont">
+      <div className="container-fluid cont" id="Home">
         <div className="box">
           <div className="ProfileImage">
             <img src={profile} alt=""/>

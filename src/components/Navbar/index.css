@@ -3,19 +3,23 @@
   width: 50px;
 }
 .navbar-custom {
-  background-color: #F8F8F8;
-  border-color: #E7E7E7;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
 }
-.navbar-text{
+.navbar-text {
   color: white;
 }
-.navbar-dark{
+.navbar-dark {
   background-color: black;
 }
-.bg-dark{
+.bg-dark {
   background-color: black !important;
 }
-.navbar-nav{
+.navbar-nav {
   align-items: center;
   margin: auto;
+}
+
+.Nav.Link {
+  scroll-behavior: smooth;
 }

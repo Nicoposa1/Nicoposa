@@ -14,7 +14,7 @@ import webpack from '../../images/webpack.svg'
 class Skills extends React.Component{
   render(){
     return(
-      <div className="container-fluid contenedor">
+      <div className="container-fluid contenedor" id="skills">
         <h1>Skills</h1>
         <div className="row fila container-sm">
           <div className="col-6 col-md-4 columna">
